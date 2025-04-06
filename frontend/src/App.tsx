@@ -29,7 +29,7 @@ function App() {
       case 'upload':
         return <DataUpload />;
       case 'report':
-        return <AnalysisReport grade={predictedGrade} />;
+        return <AnalysisReport />;
       case 'grades':
         return <SoldierForm onGradePredicted={(grade) => {
           setPredictedGrade(grade);

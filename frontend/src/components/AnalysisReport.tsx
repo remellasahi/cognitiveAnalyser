@@ -177,7 +177,6 @@ const AnalysisReport: React.FC = () => {
   const { uploadedData } = useData();
   const [selectedSoldier, setSelectedSoldier] = useState<string | null>(null);
 
-  // ✅ Generate fixed random grades per soldier only once
   const gradedSoldiers = useMemo(() => {
     return uploadedData.map((soldier) => ({
       ...soldier,
