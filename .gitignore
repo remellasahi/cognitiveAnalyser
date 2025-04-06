@@ -1,0 +1,20 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.sqlite3
+**/*.log
+
+# Django
+djangoML/db.sqlite3
+djangoML/venv/
+djangoML/.env
+
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Common
+.vscode/
+.DS_Store
+old_codes
